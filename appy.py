@@ -8,7 +8,7 @@ new_height = 50
 image_resized = image.resize((new_width, new_height))
 
 # Mostrar la imagen con las nuevas dimensiones
-st.image(image_resized)
+st.image(image_resized, caption='Tu')
 # Mensaje de Bienvenida y Saludo Personalizado
 st.write("Bienvenido a CocinaFacil. Por favor, introduce tu nombre para comenzar:")
 nombre = st.text_input("Nombre")
