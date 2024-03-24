@@ -2,9 +2,9 @@ import streamlit as st
 from PIL import Image 
 
 st.title("CocinaFacil - Tu Asistente de Cocina Personalizado")
-image = Image.open('zy.jpg')
-new_width = 50
-new_height = 50
+image = Image.open('Gatochef1.jpeg')
+new_width = 120
+new_height = 120
 image_resized = image.resize((new_width, new_height))
 
 # Mostrar la imagen con las nuevas dimensiones
