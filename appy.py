@@ -52,7 +52,7 @@ if nombre:
                 st.write("Instrucciones: Cocinar la carne con la salsa, armar las capas con pasta y queso, hornear y servir caliente.")
             else: # Cocina asiática
                 st.subheader("Receta de Stir Fry de Ternera y Verduras:")
-                st.write("Descripción: Ternera salteada con una variedad de verduras frescas y salsa de soja.")
+                                st.write("Descripción: Ternera salteada con una variedad de verduras frescas y salsa de soja.")
                 st.write("Ingredientes: Ternera en tiras, verduras mixtas (pimientos, cebolla, brócoli), salsa de soja, jengibre, ajo, aceite de sésamo.")
                 st.write("Instrucciones: Saltear la ternera y las verduras con la salsa de soja y las especias, servir caliente.")
 
@@ -72,4 +72,14 @@ if nombre:
             else: # Cocina asiática
                 st.subheader("Receta de Curry de Pollo y Verduras:")
                 st.write("Descripción: Pollo y verduras cocidos en una salsa de curry aromática.")
-                st.write("Ingredientes: Pechugas de pollo, verduras mixtas
+                st.write("Ingredientes: Pechugas de pollo, verduras mixtas (pimientos, cebolla, zanahorias), leche de coco, pasta de curry, jengibre, ajo.")
+                st.write("Instrucciones: Saltear el pollo y las verduras, agregar la pasta de curry y la leche de coco, cocinar a fuego lento hasta que todo esté tierno.")
+
+    elif plato == 'Plato vegetariano':
+        # Lógica para las recetas vegetarianas
+        pass
+
+    else: # Plato de pescado
+        # Lógica para las recetas de pescado
+        pass
+
