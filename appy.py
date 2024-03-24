@@ -3,6 +3,7 @@ from PIL import Image
 
 st.title("CocinaFacil - Tu Asistente de Cocina Personalizado")
 image = Image.open('zy.jpg')
+st.image(image, caption='Interfaces multimodales')
 # Mensaje de Bienvenida y Saludo Personalizado
 st.write("Bienvenido a CocinaFacil. Por favor, introduce tu nombre para comenzar:")
 nombre = st.text_input("Nombre")
