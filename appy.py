@@ -71,17 +71,29 @@ if nombre:
 
             else: # Cocina asiática
                 st.subheader("Receta de Curry de Pollo y Verduras:")
-                st.write("Descripción: Pollo y verduras cocidos en una salsa de curry aromática.")
+                               st.write("Descripción: Pollo y verduras cocidos en una salsa de curry aromática.")
                 st.write("Ingredientes: Pechugas de pollo, verduras mixtas (pimientos, cebolla, zanahoria, brócoli), leche de coco, salsa de curry, jengibre, ajo.")
                 st.write("Instrucciones: Saltear el pollo y las verduras, agregar la leche de coco y la salsa de curry, cocinar a fuego lento, servir con arroz.")
-
     elif plato == 'Plato vegetariano':
-        # Lógica para recetas vegetarianas
-        pass
-
+        if tiempo == 'Menos de 30 minutos':
+            # Lógica para recetas vegetarianas rápidas
+            pass
+        elif tiempo == 'Entre 30 y 60 minutos':
+            # Lógica para recetas vegetarianas medianas
+            pass
+        else: # Más de 60 minutos
+            # Lógica para recetas vegetarianas largas
+            pass
     else: # Plato de pescado
-        # Lógica para recetas de pescado
-        pass
+        if tiempo == 'Menos de 30 minutos':
+            # Lógica para recetas de pescado rápidas
+            pass
+        elif tiempo == 'Entre 30 y 60 minutos':
+            # Lógica para recetas de pescado medianas
+            pass
+        else: # Más de 60 minutos
+            # Lógica para recetas de pescado largas
+            pass
 
 
 
