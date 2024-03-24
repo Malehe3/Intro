@@ -3,8 +3,8 @@ from PIL import Image
 
 st.title("CocinaFacil - Tu Asistente de Cocina Personalizado")
 image = Image.open('Gatochef1.jpeg')
-new_width = 120
-new_height = 120
+new_width = 200
+new_height = 200
 image_resized = image.resize((new_width, new_height))
 
 # Mostrar la imagen con las nuevas dimensiones
