@@ -185,9 +185,10 @@ if nombre:
                 st.write("Ingredientes: Arroz de sushi, filete de salmón, alga nori, aguacate, pepino, vinagre de arroz, wasabi, salsa de soja.")
                 st.write("Instrucciones: Preparar el arroz, extender en las hojas de nori, añadir el salmón, aguacate y pepino, enrollar y cortar en porciones.")
 
-# Botón para Calificar la Experiencia
-st.subheader("¡Ayúdanos a mejorar tu experiencia! Por favor, califica CocinaFacil:")
-calificacion = st.slider("Califica de 1 a 5 estrellas", 1, 5)
+     # Botón para Calificar la Experiencia
+     st.subheader("¡Ayúdanos a mejorar tu experiencia! Por favor, califica CocinaFacil:")
+     calificacion = st.slider("Califica de 1 a 5 estrellas", 1, 5)
 
-if calificacion:
-    st.write(f"¡Gracias por tu calificación de {calificacion} estrellas!")
+     if calificacion:
+     st.write(f"¡Gracias por tu calificación de {calificacion} estrellas!")
+ 
