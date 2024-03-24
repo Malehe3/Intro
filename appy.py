@@ -60,7 +60,7 @@ if nombre:
             if cocina == 'Cocina mexicana':
                 st.subheader("Receta de Barbacoa de Res:")
                 st.write("Descripción: Carne de res cocida a fuego lento con una mezcla de especias y jugos.")
-                                st.write("Ingredientes: Carne de res (como la falda), mezcla de especias para barbacoa, cebolla, ajo, jugo de limón, consomé de res.")
+                st.write("Ingredientes: Carne de res (como la falda), mezcla de especias para barbacoa, cebolla, ajo, jugo de limón, consomé de res.")
                 st.write("Instrucciones: Cocinar la carne lentamente con las especias y los jugos hasta que esté tierna y desmenuzable.")
             elif cocina == 'Cocina italiana':
                 st.subheader("Receta de Osso Buco:")
