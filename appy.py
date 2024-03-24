@@ -71,7 +71,7 @@ if nombre:
 
             else: # Cocina asiática
                 st.subheader("Receta de Curry de Pollo y Verduras:")
-                               st.write("Descripción: Pollo y verduras cocidos en una salsa de curry aromática.")
+                st.write("Descripción: Pollo y verduras cocidos en una salsa de curry aromática.")
                 st.write("Ingredientes: Pechugas de pollo, verduras mixtas (pimientos, cebolla, zanahoria, brócoli), leche de coco, salsa de curry, jengibre, ajo.")
                 st.write("Instrucciones: Saltear el pollo y las verduras, agregar la leche de coco y la salsa de curry, cocinar a fuego lento, servir con arroz.")
     elif plato == 'Plato vegetariano':
