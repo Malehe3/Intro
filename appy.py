@@ -3,7 +3,12 @@ from PIL import Image
 
 st.title("CocinaFacil - Tu Asistente de Cocina Personalizado")
 image = Image.open('zy.jpg')
-st.image(image, caption='Interfaces multimodales')
+new_width = 50
+new_height = 50
+image_resized = image.resize((new_width, new_height))
+
+# Mostrar la imagen con las nuevas dimensiones
+st.image(image_resized)
 # Mensaje de Bienvenida y Saludo Personalizado
 st.write("Bienvenido a CocinaFacil. Por favor, introduce tu nombre para comenzar:")
 nombre = st.text_input("Nombre")
